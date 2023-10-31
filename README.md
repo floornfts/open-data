@@ -1,6 +1,8 @@
 <h1 align="center" style="vertical-align:middle;">
-<img src="https://github.com/floornfts/open-data/assets/1068437/23e72cff-6741-4ecc-b7d8-519342418bf9" width="120" />
+<img src="https://github.com/floornfts/open-data/assets/1068437/862d92df-a981-4fa1-81c5-4c46bd7ed7f8" width="120" />
+
 <br />
+
   Floor Open Data
 </h1>
 A collection of datasets provided by Floor in partnership with Solana & Google. 
@@ -14,7 +16,7 @@ Our first open public dataset is Collection Floor Prices for collections on Sola
   <p align="center">
     <a href="/collection-floor-price/" >
       <picture>
-    <img src="https://github.com/floornfts/open-data/assets/1068437/703b9b1c-4885-43b3-9d1b-905c42538729" width="80%" alt="Collection Floor Prices on Solana" />
+    <img src="https://github.com/floornfts/open-data/assets/1068437/2ad1afd9-659c-4b96-9115-589eaca692ca" width="80%" alt="Collection Floor Prices on Solana" />
       </picture>
       </a>
   </p>
