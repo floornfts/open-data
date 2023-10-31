@@ -84,6 +84,8 @@ ORDER BY 1 DESC
 
 We can now use Looker Studio (a free Google product integrated into BigQuery) to visualize this data, export to Sheets etc...
 
+<br/>
+
 ## BigQuery Tips
 ### Costs
 This public dataset is made available for free, but using BigQuery to query it may not be free. Google will charge you per bytes of data queried in accordance with [BigQuery Pricing](https://cloud.google.com/bigquery/pricing).
@@ -91,6 +93,8 @@ This public dataset is made available for free, but using BigQuery to query it m
 Generally speaking, querying is ~$6/TB of data queried (check the link for the latest pricing) and at time of publishing this entire dataset is 20GB (so approximately $0.12 to scan the entire dataset for all collections.)
 
 You can dramatically reduce this cost by utilizing the clustered fields and partitioned fields below for filtering.
+
+<br/>
 
 ### Partitioning & Clustering
 BigQuery has two concepts that massively reduce the costs of querying datasets in most scenarios:
@@ -111,4 +115,14 @@ This query loads 80MB of data (~$0.0005, huzzah!)
 SELECT * FROM `floor-public-datasets.stats.collection-floor-hourly`
 WHERE date = TIMESTAMP("2023-10-31")
 ```
+<br/>
+
+### Viualizing Data in Looker Studio
+You can easily take the output of any query and export it to Google Sheets or Looker Studio.
+
+<img src="https://github.com/floornfts/open-data/assets/1068437/ec9614e0-81c6-4958-9df9-e1f1b3bb54f2" width="300" />
+
+From here, you can quickly create graphs like this one with a few clicks:
+![CleanShot 2023-10-31 at 09 07 23@2x](https://github.com/floornfts/open-data/assets/1068437/dfa5161e-b99f-4cfc-937c-01c82d704779)
+
 
