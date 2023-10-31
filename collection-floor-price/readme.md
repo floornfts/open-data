@@ -1,7 +1,7 @@
 # Collection Floor Prices
 
 <p align="center">
-  <img src="https://github.com/floornfts/open-data/assets/1068437/6d113ed2-6ba9-4c69-a72c-eb14f9c0d39c" width="400" />
+  <img src="https://github.com/floornfts/open-data/assets/1068437/e9269c26-7ab4-423b-aea9-52fc22dd4d65" width="400" />
   <br />
   <em style="max-width:300px">This is a real-time replica of the data that powers the Floor app graphs for Solana collections.</em>
 </p>
@@ -17,7 +17,8 @@ The Collection Floor prices data set contains:
 ## Getting Access
 You can find the dataset here → <a target="_blank" href="https://console.cloud.google.com/bigquery?project=floor-public-datasets&ws=!1m14!1m4!4m3!1sfloor-public-datasets!2sstats!3scollection-floor-hourly!1m4!1m3!1sfloor-public-datasets!2sbquxjob_5f5b1197_18b858eb336!3sUS!1m3!3m2!1sfloor-public-datasets!2sstats">floor-public-datasets</a>, or simply reference the table in any query as `floor-public-datasets.stats.collection-floor-hourly`.
 
-![CleanShot 2023-10-06 at 08 16 09@2x](https://github.com/floornfts/open-data/assets/1068437/7ce3b342-c71c-42dd-9857-3129a09bcf9c)
+![4](https://github.com/floornfts/open-data/assets/1068437/81cd184f-7b25-4e50-814e-d495a904c7f7)
+
 
 ## Usage
 ### Getting a Collection floor Price
@@ -59,7 +60,7 @@ Let's start doing some interesting things with the data, starting with a time se
 Here we're going to get the values of collection floor prices over time, and plot them on a chart.
 
 <p align="center">
-<img src="https://github.com/floornfts/open-data/assets/1068437/903ed24b-6ac5-4f68-97da-81389ab6f201" width="500" />
+  <img src="https://github.com/floornfts/open-data/assets/1068437/e212dce3-5a10-46b3-a8fb-6a42537d7d63" width="500" />
 </p>
 
 ```sql
@@ -120,9 +121,8 @@ WHERE date = TIMESTAMP("2023-10-31")
 ### Viualizing Data in Looker Studio
 You can easily take the output of any query and export it to Google Sheets or Looker Studio.
 
-<img src="https://github.com/floornfts/open-data/assets/1068437/ec9614e0-81c6-4958-9df9-e1f1b3bb54f2" width="300" />
+<img src="https://github.com/floornfts/open-data/assets/1068437/16778d76-9cbe-4486-8a01-93e3abdfef4a" width="300" />
 
 From here, you can quickly create graphs like this one with a few clicks:
-![CleanShot 2023-10-31 at 09 07 23@2x](https://github.com/floornfts/open-data/assets/1068437/dfa5161e-b99f-4cfc-937c-01c82d704779)
-
+![CleanShot 2023-10-31 at 09 07 23@2x](https://github.com/floornfts/open-data/assets/1068437/8e3c9f10-b7d5-454f-a0ef-82a9f3b67060)
 
