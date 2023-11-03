@@ -7,7 +7,7 @@
 </h1>
 A collection of datasets provided by Floor <a href="https://solana.com/news/solana-data-live-on-google-cloud-bigquery">in partnership with Solana & Google</a>.
 
-We are excited to be able to share this with the community & can't wait to see what you do with the data - let us know!
+We're excited to share some of the data that powers the Floor app with the broader community & can't wait to see what you do with the data. If you build something interesting, let us know at data@floornfts.io!
 
 
 ## Datasets
