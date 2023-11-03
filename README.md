@@ -5,7 +5,7 @@
 
   Floor Open Data
 </h1>
-A collection of datasets provided by Floor in partnership with Solana & Google. 
+A collection of datasets provided by Floor [in partnership with Solana & Google.](https://solana.com/news/solana-data-live-on-google-cloud-bigquery) 
 
 We are excited to be able to share this with the community & can't wait to see what you do with the data - let us know!
 
